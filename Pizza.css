@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#title1{
+    width: 100vw;
+    height: 25vh;
+    background-color: orangered;
+}
+#title2{
+    color: white;
+    font-size: 55px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 30px;
+}
+#title3{
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 8px;
+    text-align: center;
+}
+#title4{
+    width: 100vw;
+    height: 130vh;
+    /* background-color: pink; */
+}
+#title5{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 0px;
+}
+#title6{
+    font-size: 20px;
+    padding-top: 20px;
+}
+#title7{
+    font-size: 30px;
+    font-family:cursive;
+    text-align: center;
+    padding-top: 100px;
+}
+#outerdiv{
+    width: 1100px;
+    height: 500px;
+    /* background-color: lightskyblue; */
+    margin-left: 15%;
+    margin-top: 50px;
+    font-family: cursive;
+    display: flex;
+}
+#innerdiv1{
+    /* for image */
+    background-image: url(../Images/veg\ pizza\ image.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 320px;
+    /* for box */
+    width: 350px;
+    height: 450px;
+    /* background-color: orange; */
+    border-radius: 50px;
+    border: 10px solid gray;
+    /* for text */
+    font-size: 17px;
+    text-align: center;
+    line-height: 34px;
+    
+    
+}
+#innerdiv2{
+    background-image: url(../Images/chicken\ pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 320px;
+    width: 350px;
+    height: 450px;
+    /* background-color: orangered; */
+    margin-left: 80px;
+    border-radius: 50px;
+    border: 10px solid gray;
+    font-size: 17px;
+    text-align: center;
+    line-height: 34px;
+}
+#innerdiv3{
+    background-image: url(../Images/valcano\ pizza.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 320px;
+    width: 350px;
+    height: 450px;
+    /* background-color: orange; */
+    margin-left: 80px;
+    border-radius: 50px;
+    border: 10px solid gray;
+    font-size: 17px;
+    text-align: center;
+    line-height: 34px;
+}
+.title8{
+    padding-top: 330px;
+}
+#total{
+    margin-top: 30px;
+    font-size: 30px;
+}
+#innerdiv1:hover{
+    transform: scale(1.1);
+}
+#innerdiv2:hover{
+    transform: scale(1.1);
+}
+#innerdiv3:hover{
+    transform: scale(1.1);
+}
